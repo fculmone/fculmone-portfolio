@@ -10,14 +10,14 @@ export function MultiLayeredParallax() {
     offset: ["start start", "end start"],
   });
   const mountainsY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "180%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "800%"]);
 
   return (
-    <div className="w-full h-screen overflow-hidden relative grid text-center">
+    <div className="w-full h-screen overflow-hidden relative grid text-center ">
       <motion.div
         style={{ y: textY }}
-        className="font-bold text-white mt-16 text-5xl md:text-7xl md:mt-10 relative justify-top z-10 "
+        className="font-bold text-white mt-16 text-5xl md:text-7xl md:mt-22 relative justify-top z-10 drop-shadow-xl shadow-black underline-css"
       >
         Francesco <br />
         Culmone

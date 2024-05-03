@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@react-spring/parallax": "^9.7.3",
+    "@smakss/react-scroll-direction": "^4.1.0",
+    "aos": "^3.0.0-beta.6",
     "framer-motion": "^11.1.7",
     "next": "14.2.3",
+    "nodemailer": "^6.9.13",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^5.2.0"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
