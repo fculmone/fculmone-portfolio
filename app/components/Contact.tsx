@@ -22,7 +22,7 @@ export function Contact() {
       </div>
 
       <div className="flex w-full justify-center items-center">
-        <div className="flex flex-col mt-20">
+        <div className="flex flex-col mt-20 md:mb-24">
           <div data-aos="fade-up" data-aos-once="true">
             <a
               className="flex items-center mt-8 hover:cursor-pointer"

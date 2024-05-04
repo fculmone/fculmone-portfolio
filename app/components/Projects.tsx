@@ -56,7 +56,7 @@ export function Projects() {
         <div className="flex flex-col w-full h-full justify-center mt-96">
           <div
             className="w-full h-full border-[#A599B5] border-[3px] px-3 py-4 lg:border-4 rounded-2xl ml-1 lg:px-10 lg:ml-8 md:py-8 grid grid-cols-1 gap-3 md:grid-cols-3"
-            data-aos="fade-left"
+            data-aos="flip-left"
             data-aos-anchor-placement="top-center"
           >
             <div className="col-span-2">
@@ -66,12 +66,12 @@ export function Projects() {
               <ul className="list-disc pl-5 mt-6 text-lg space-y-2">
                 <li>
                   Worked as an Android developer for Ford Motor Company, where
-                  the teams main project was to design an app for Amazon Alexa
-                  that would be used on the touch screens in their motor
+                  the team&apos;s main project was to design an app for Amazon
+                  Alexa that would be used on the touch screens in their motor
                   vehicles.
                 </li>
                 <li>
-                  Technoligies used include Java, Kotlin, Android Studio, and
+                  Technologies used include Java, Kotlin, Android Studio, and
                   Git.
                 </li>
                 <li>
@@ -91,7 +91,7 @@ export function Projects() {
           </div>
           <div
             className="w-full h-full border-[#A599B5] border-[3px] px-3 py-4 md:border-4 rounded-2xl ml-1 md:px-10 md:ml-8 md:py-8 grid grid-cols-1 gap-3 md:grid-cols-1 mt-40"
-            data-aos="fade-left"
+            data-aos="flip-left"
             data-aos-anchor-placement="top-center"
           >
             <div className="col-span-2">
@@ -124,7 +124,7 @@ export function Projects() {
           </div>
           <div
             className="w-full h-full border-[#A599B5] border-[3px] px-3 py-4 md:border-4 rounded-2xl ml-1 md:px-10 md:ml-8 md:py-8 grid grid-cols-1 gap-3 md:grid-cols-3 mt-40"
-            data-aos="fade-left"
+            data-aos="flip-left"
             data-aos-anchor-placement="top-center"
           >
             <div className="col-span-2">
@@ -134,7 +134,7 @@ export function Projects() {
               <ul className="list-disc pl-5 mt-6 text-lg space-y-2">
                 <li>
                   Built a responsive web page that helps players of the mobile
-                  game Clash Royale quickly manage their clan
+                  game Clash Royale quickly manage their clan.
                 </li>
                 <li>
                   Consists of a frontend built with React using the NextJS
@@ -169,7 +169,7 @@ export function Projects() {
           </div>
           <div
             className="w-full h-full border-[#A599B5] border-[3px] px-3 py-4 md:border-4 rounded-2xl ml-1 md:px-10 md:ml-8 md:py-8 grid grid-cols-1 gap-3 md:grid-cols-3 mt-40"
-            data-aos="fade-left"
+            data-aos="flip-left"
             data-aos-anchor-placement="top-center"
           >
             <div className="col-span-2">
@@ -179,11 +179,11 @@ export function Projects() {
               <ul className="list-disc pl-5 mt-6 text-lg space-y-2">
                 <li>
                   Freelanced a company website for the DJ and Entertainment
-                  company Innerphase Productions
+                  company Innerphase Productions.
                 </li>
                 <li>
                   Built using the React library with the NextJS framework and
-                  styled using TailwindCSS
+                  styled using TailwindCSS.
                 </li>
                 <li>
                   You can check it out{" "}
