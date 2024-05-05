@@ -1,5 +1,5 @@
 "use client";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import ContactForm from "./ui/ContactForm";
 import { TfiEmail } from "react-icons/tfi";
 import { MdPhone } from "react-icons/md";
@@ -45,6 +45,17 @@ export function Contact() {
             >
               <FaLinkedin className="fill-white w-12 h-12 mr-10" />
               <p className="text-white text-sm md:text-lg">Francesco Culmone</p>
+            </a>
+          </div>
+          <div data-aos="fade-up" data-aos-once="true">
+            <a
+              className="flex items-center mt-8 hover:cursor-pointer"
+              href="https://github.com/fculmone"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FaGithub className="fill-white w-12 h-12 mr-10" />
+              <p className="text-white text-sm md:text-lg">fculmone</p>
             </a>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function AboutMeText() {
   return (
     <div
@@ -36,6 +38,15 @@ export function AboutMeText() {
         and professional journey. Thank you for visiting, and I look forward to
         connecting and sharing my passion for technology with you.
       </p>
+      <div className="flex justify-center scale-75">
+        <Image
+          src="/profile.jpg"
+          width={540}
+          height={720}
+          alt="Picture of the author"
+          className="object-center overflow-hidden rounded-full aspect-square object-cover  m-auto"
+        />
+      </div>
     </div>
   );
 }

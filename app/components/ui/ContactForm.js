@@ -33,7 +33,6 @@ export default function ContactForm() {
   const { values, isLoading, error } = state;
 
   function validateEmail(email) {
-    console.log(email);
     email = email.trim();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
